@@ -4,13 +4,25 @@
   
     
     <entry>
-      <title>Hello World</title>
-      <link href="/2020/02/08/hello-world/"/>
-      <url>/2020/02/08/hello-world/</url>
+      <title>Hello world</title>
+      <link href="/2020/03/05/hello-world/"/>
+      <url>/2020/03/05/hello-world/</url>
       
-        <content type="html"><![CDATA[<html><head></head><body><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure></div><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></tbody></table></figure></div><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></tbody></table></figure></div><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></tbody></table></figure></div><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p></body></html>]]></content>
+        <content type="html"><![CDATA[<html><head></head><body><h1 id="第一篇博客文章"><a href="#第一篇博客文章" class="headerlink" title="第一篇博客文章"></a>第一篇博客文章</h1><!--这些是注释文本，不会显示--><!--在这里放些代码先，免得以后忘了...title:date:tags:categories:keywords:description:top_img: （除非特定需要，可以不寫）index_top_img_height:  #主頁top_img高度 例如 300px/300em/300rem  不能使用百分比,与上一个二选一comments  是否顯示評論（除非設置false,可以不寫）cover:  縮略圖toc:  是否顯示toc （除非特定文章設置，可以不寫）toc_number: 是否顯示toc數字 （除非特定文章設置，可以不寫）copyright: 是否顯示版權 （除非特定文章設置，可以不寫）mathjax:katex:hide: 文章隐藏top: 文章顶置wordcount: 文章字数统计  enable: true--><p>说实话，其实这个博客早就搭好了，只不过我太懒了，搭完后没有继续完善，所以就还没公布，不过现在感觉整得差不多了，也就公布一下我的博客。</p><p>我会在这里发一些各种各样的教程，比如自己搞的一些小程序（不是微信的啊），或者ps教程，网络工程，单片机什么的。最近的项目的话，就是公布我搭这个博客的过程，还有教程吧，当然我很懒的（不信的话可以看看上方的发表时间和更新时间），所以不要期望太多，更何况现在也有很多教程了，所以多我一个不多，少我一个不少。这个网站我是不打算被搜索引擎收录的，所以我的博客是不会被搜索到的，除非有人提交上去————所以啊，赶紧收藏啊！(>▽<)！</p><p>这个网站是用 github pages + hexo 做的，因此我的博客是静态网页。当然，这个网页的主题也不是我制作的，我也没这个实力，我只是改了配色拿来用的，教程会写到的，网页最下面有原作者的网站你们可以看一下。所以以后我可能会学习制作主题，做一个属于自己的主题，毕竟这个主题也不是很适合我。</p><p>总的来说，这个博客就是给我自嗨的，用来写写总结，发表一些看法，基本不用考虑别人，当然如果人数很多的话，我还是会考虑一下的。当然如果有人打赏的话，嘿嘿嘿，这个好说。︿(￣︶￣)︿</p></body></html>]]></content>
       
       
+      <categories>
+          
+          <category> 生活 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 生活 </tag>
+            
+        </tags>
       
     </entry>
     
