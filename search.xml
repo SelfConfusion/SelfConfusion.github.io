@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>因未完全卸载导致的npm error EEXIST</title>
+      <link href="/2020/04/18/%E5%9B%A0%E6%9C%AA%E5%AE%8C%E5%85%A8%E5%8D%B8%E8%BD%BD%E5%AF%BC%E8%87%B4%E7%9A%84npm-error-EEXIST/"/>
+      <url>/2020/04/18/%E5%9B%A0%E6%9C%AA%E5%AE%8C%E5%85%A8%E5%8D%B8%E8%BD%BD%E5%AF%BC%E8%87%B4%E7%9A%84npm-error-EEXIST/</url>
+      
+        <content type="html"><![CDATA[<html><head></head><body><p>在安装PicGo-Core的时候，因为一直安装不了插件，于是导致我经常安装卸载PicGo-Core。</p><p>在某次安装的时候突然失败，上网查了一下原因，说是拒绝安装。</p><p>思考了一下，觉得有两种原因：</p><p>第一种，没有管理员权限</p><p>第二种，后台程序占用文件</p><p>然而解决这两个因素后，PicGo仍然安装不了，仔细观察错误信息后发现，npm叫我删除某个文件然后再重试。</p><p><a href="https://i.loli.net/2020/04/18/2DSCIWzQMeFfRnm.png" data-fancybox="group" data-caption="image-20200418194514442" class="fancybox"><img alt="image-20200418194514442" title="image-20200418194514442" data-src="https://i.loli.net/2020/04/18/2DSCIWzQMeFfRnm.png" class="lazyload"></a></p><p>我在npm的安装文件夹找了一下，找到了未完全卸载的picgo文件，删除后就可以正常安装了。</p></body></html>]]></content>
+      
+      
+      <categories>
+          
+          <category> Error </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PicGo </tag>
+            
+            <tag> npm </tag>
+            
+            <tag> Error </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>typora + picgo + SM.MS 实现图片自动上传</title>
       <link href="/2020/04/18/typora-picgo-SM-MS-%E5%AE%9E%E7%8E%B0%E5%9B%BE%E7%89%87%E8%87%AA%E5%8A%A8%E4%B8%8A%E4%BC%A0/"/>
       <url>/2020/04/18/typora-picgo-SM-MS-%E5%AE%9E%E7%8E%B0%E5%9B%BE%E7%89%87%E8%87%AA%E5%8A%A8%E4%B8%8A%E4%BC%A0/</url>
